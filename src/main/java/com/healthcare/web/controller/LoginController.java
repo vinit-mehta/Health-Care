@@ -24,7 +24,7 @@ public class LoginController {
 	public ModelAndView adminPage() {
 
 		ModelAndView model = new ModelAndView();
-		model.addObject("title", "Health Care Admin Page");
+		model.addObject("title", "Health Care Admin Page.");
 		model.addObject("message", "This is protected page!");
 		model.setViewName("admin");
 
